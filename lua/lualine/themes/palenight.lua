@@ -18,30 +18,30 @@ local colors = {
   dark_yellow    = '#F78C6C',
   cyan           = '#89DDFF',
   comment_grey   = '#697098',
-  black          = '#292D3E',
+  black          = '#2a2c3d',
 }
 
 return {
   normal = {
-    a = { fg = colors.black, bg = colors.purple, gui = 'bold' },
-    b = { fg = colors.purple, bg = colors.menu_grey },
+    a = { fg = colors.purple, bg = colors.black },
+    b = { fg = colors.light_red, bg = colors.black },
     c = { fg = colors.comment_grey, bg = colors.black },
   },
   insert = {
-    a = { fg = colors.black, bg = colors.blue, gui = 'bold' },
-    b = { fg = colors.blue, bg = colors.menu_grey },
+    a = { fg = colors.blue, bg = colors.black },
+    b = { fg = colors.cyan, bg = colors.black },
   },
   visual = {
-    a = { fg = colors.black, bg = colors.cyan, gui = 'bold' },
-    b = { fg = colors.cyan, bg = colors.menu_grey },
+    a = { fg = colors.dark_yellow, bg = colors.black },
+    b = { fg = colors.yellow, bg = colors.black },
   },
   replace = {
-    a = { fg = colors.black, bg = colors.green, gui = 'bold' },
-    b = { fg = colors.green, bg = colors.menu_grey },
+    a = { fg = colors.green, bg = colors.black },
+    b = { fg = colors.green, bg = colors.black },
   },
   inactive = {
-    a = { fg = colors.black, bg = colors.menu_grey, gui = 'bold' },
-    b = { fg = colors.black, bg = colors.menu_grey },
-    c = { fg = colors.black, bg = colors.menu_grey },
+    a = { fg = colors.black, bg = colors.black },
+    b = { fg = colors.black, bg = colors.black },
+    c = { fg = colors.black, bg = colors.black },
   },
 }
