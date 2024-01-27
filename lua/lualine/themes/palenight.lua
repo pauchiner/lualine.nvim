@@ -23,25 +23,25 @@ local colors = {
 
 return {
   normal = {
-    a = { fg = colors.purple, bg = colors.black },
-    b = { fg = colors.light_red, bg = colors.black },
+    a = { fg = colors.purple, bg = colors.black, gui = "bold" },
+    b = { fg = colors.comment_grey, bg = colors.black },
     c = { fg = colors.comment_grey, bg = colors.black },
   },
   insert = {
-    a = { fg = colors.blue, bg = colors.black },
-    b = { fg = colors.cyan, bg = colors.black },
+    a = { fg = colors.blue, bg = colors.black, gui = "bold" },
+    b = { fg = colors.comment_grey, bg = colors.black },
   },
   visual = {
-    a = { fg = colors.dark_yellow, bg = colors.black },
-    b = { fg = colors.yellow, bg = colors.black },
+    a = { fg = colors.dark_yellow, bg = colors.black, gui = "bold" },
+    b = { fg = colors.comment_grey, bg = colors.black },
   },
   replace = {
-    a = { fg = colors.green, bg = colors.black },
-    b = { fg = colors.green, bg = colors.black },
+    a = { fg = colors.green, bg = colors.black, gui = "bold" },
+    b = { fg = colors.comment_grey, bg = colors.black },
   },
   inactive = {
-    a = { fg = colors.black, bg = colors.black },
-    b = { fg = colors.black, bg = colors.black },
-    c = { fg = colors.black, bg = colors.black },
+    a = { fg = colors.black, bg = colors.black, gui = "bold" },
+    b = { fg = colors.comment_grey, bg = colors.black },
+    c = { fg = colors.comment_grey, bg = colors.black },
   },
 }
